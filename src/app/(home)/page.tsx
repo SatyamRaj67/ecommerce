@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
 import { Progress } from "@/components/ui/progress";
 import { Textarea } from "@/components/ui/textarea";
@@ -19,6 +20,9 @@ const HomePage = () => {
         </div>
         <div>
           <Textarea placeholder="I am an TextArea" />
+        </div>
+        <div>
+          <Checkbox />
         </div>
       </div>
     </div>
